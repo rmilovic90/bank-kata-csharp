@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F53FC2DF-850C-474E-AF4B-543E06656B8E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{68BA0A55-440E-4F8C-8564-FA2756D9340C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A0794E38-F5BF-4992-8BFE-EB2F10E73EC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankApplication", "src\BankApplication\BankApplication.csproj", "{2E5CB161-147D-4B92-B73D-3051121913AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankApplication.Tests", "tests\BankApplication.Tests\BankApplication.Tests.csproj", "{32617AC2-F10A-464A-A780-1C77FDD50425}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E5CB161-147D-4B92-B73D-3051121913AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5CB161-147D-4B92-B73D-3051121913AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E5CB161-147D-4B92-B73D-3051121913AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E5CB161-147D-4B92-B73D-3051121913AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32617AC2-F10A-464A-A780-1C77FDD50425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32617AC2-F10A-464A-A780-1C77FDD50425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32617AC2-F10A-464A-A780-1C77FDD50425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32617AC2-F10A-464A-A780-1C77FDD50425}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E5CB161-147D-4B92-B73D-3051121913AE} = {68BA0A55-440E-4F8C-8564-FA2756D9340C}
+		{32617AC2-F10A-464A-A780-1C77FDD50425} = {A0794E38-F5BF-4992-8BFE-EB2F10E73EC1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6CFB3BE-0A5A-4D7B-846A-1C29B042B732}
+	EndGlobalSection
+EndGlobal
